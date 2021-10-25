@@ -80,6 +80,7 @@ img {
     width: 540px;
     background-color: hsl(277, 60%, 41%);
     overflow: hidden;
+    border-radius: 5px;
 }
 
 @media (max-width: 500px) {
