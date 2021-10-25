@@ -85,27 +85,57 @@ img {
 @media (max-width: 500px) {
     body {
         width: 375px;
-        height: 1vh;
+        height: 900px;
     }
 
     img {
-        width: 300px;
+        width: 350px;
+        
+    }
+
+    h1 {
+        font-size: 26px;
+    }
+
+    p {
+        font-size: 13px;
+        width: 90%;
+        margin: auto;
     }
 
     .card-complete {
         display: flex;
         flex-direction: column-reverse;
-        width: 350px;
+        width: 350px; 
         margin-left: auto;
+        margin-top: 70px;
+        margin-bottom: 50px;
     }
 
     .left-card {
-        width: 300px;
+        width: 350px;
+        height: auto;
     }
 
+    .left-card-content {
+        text-align: center;
+        }
+
     .right-picture {
-        height: fit-content;
+        height: max-content;
         width: fit-content;
+        border-radius: 5px 5px 0px 0px;
+        
+    }
+
+    .stats {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    height: 200px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
     }
 }
 
