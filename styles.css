@@ -2,8 +2,6 @@ body {
     margin: 0;
     background-color: hsl(233, 47%, 7%);
     height: 1vh;
-
-    
 }
 
 h1 {
@@ -97,7 +95,7 @@ img {
     .card-complete {
         display: flex;
         flex-direction: column-reverse;
-        size: 70%;
+        width: 350px;
         margin-left: auto;
     }
 
